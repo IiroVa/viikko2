@@ -58,11 +58,15 @@ public class App
                      break;
                }
         
-        sc.close();    }
-        }
         
+        
+        
+            }
+        }
+        sc.close();
 
 
 
     }
+    
 }
