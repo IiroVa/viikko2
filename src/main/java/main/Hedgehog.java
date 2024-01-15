@@ -14,7 +14,7 @@ public class Hedgehog {
         this.age = age;
     }
     public void speak(String input) {
-        System.out.println(name + ": " + input + ".");
+        System.out.println(name + ": " + input);
     }
 
     public String getName(){

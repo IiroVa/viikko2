@@ -9,7 +9,7 @@ public class App
         Scanner sc = new Scanner(System.in);
         boolean exit = false;
         while(!exit){
-            System.out.println("1) Pistä siili puhumaan,, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
+            System.out.println("1) Pistä siili puhumaan, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
 
             if(sc.hasNext()){
                 int i = 0;
@@ -19,11 +19,11 @@ public class App
                 switch(i){
                     case 1:
                     
-                    System.out.println("Mitä siili sanoo: ");
+                    System.out.println("Mitä siili sanoo:");
                     String input = sc.
                     nextLine();
                     if(input.equals("")){
-                        System.out.println("Olen " + newhedgehog.getName() + " ja ikäni on " + newhedgehog.getAge() + ", mutta saisinko silti syötteen?");
+                        System.out.println("Olen " + newhedgehog.getName() + " ja ikäni on " + newhedgehog.getAge() + " vuotta, mutta antaisitko silti syötteen?");
                         break;
                     }else{
                         newhedgehog.speak(input);
