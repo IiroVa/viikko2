@@ -32,9 +32,9 @@ public class App
                     
 
                     case 2:
-                    System.out.println("Anna Siilin nimi: ");
+                    System.out.println("Anna Siilin nimi:");
                     String name = sc.nextLine();
-                    System.out.println("Anna Siilin ikä: ");
+                    System.out.println("Anna Siilin ikä:");
                      int age = Integer.parseInt(sc.nextLine());
                      newhedgehog = new Hedgehog(name, age);
                      
@@ -54,7 +54,7 @@ public class App
                      break;
 
                      default:
-                     System.out.println("Syöte oli väärä.");
+                     System.out.println("Syöte oli väärä");
                      break;
                }
         
